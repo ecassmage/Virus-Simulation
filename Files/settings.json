@@ -1,0 +1,35 @@
+{
+  "window": {
+    "__width__height__": "Dimensions of the Window.",
+    "width": 2500,
+    "height": 1400,
+    "hz": 24, "__hz__": "This is the ideal refresh rate.",
+    "stipple": true
+  },
+  "backEnd": {
+    "proximityLag": 10,
+    "iterationRate": 24,  "__iterationRate__": "This is the number of iterations that will be attempted to be completed per second for logic base"
+  },
+
+  "virus": {
+    "proximity": 10,   "__proximity__": "This is denoted as the distance in pixels. where you can be infected",
+    "infectivity": 3.5,   "__infectivity__": "This is denoted as a percent from 0-100, does not need to be a natural.",
+    "longevity": 7,     "__longevity__": "Longevity of the virus, in some measurement I haven't chosen yet, maybe days, which could mean days * 24 pixel movements per day.",
+    "earliestRecovery": 3,
+    "latestRecovery": 20,
+    "color": "red",
+    "colorRecovered": "grey"
+  },
+  "human": {
+    "size": 15,
+    "speed": 1,
+    "population": 10000,
+    "startingPopulationInfected": 2,
+    "color": "green"
+  },
+
+
+
+  "debug": true,
+  "debug_Temp": true
+}
